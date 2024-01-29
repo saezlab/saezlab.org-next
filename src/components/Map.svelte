@@ -17,6 +17,7 @@
 <style>
     figure {
         width: 30rem;
+        max-width: 100%;
         height: 15rem;
         box-shadow: var(--shadow-elevation-low);
         margin-left: 0px;
