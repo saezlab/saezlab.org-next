@@ -103,10 +103,14 @@ a {
 }
 
 html.dark {
-  background-color: #0d0950;
+  background-color: #1744c1;
+  color: #ccc;
+}
+
+.dark a, .dark .nav-links a {
   color: #fff;
 }
 
-.dark .nav-links a {
-  color: #fff;
+.dark .menu .line {
+  background-color: #fff;
 }
