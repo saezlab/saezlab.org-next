@@ -5,7 +5,8 @@ export function setMap(
         longitude,
         zoom,
         markerMarkup = '',
-    }: { latitude: number; longitude: number; zoom: number; markerMarkup?: string },
+        baseurl = '',
+    }: { latitude: number; longitude: number; zoom: number; markerMarkup?: string, baseurl?: string },
     ) {
     (async () => {
         const {
@@ -17,12 +18,12 @@ export function setMap(
         } = await import('leaflet');
 
         const markerIcon = leafletIcon({
-            iconUrl: '/marker-icon.png',
+            iconUrl: `${baseurl}/marker-icon.png`,
             iconSize: [25, 41],
             iconAnchor: [10, 41],
             popupAnchor: [2, -40],
-            iconRetinaUrl: '/marker-icon-2x.png',
-            shadowUrl: '/marker-shadow.png',
+            iconRetinaUrl: `${baseurl}/marker-icon-2x.png`,
+            shadowUrl: `${baseurl}/marker-shadow.png`,
         });
 
         const map = leafletMap(mapElement).setView([latitude, longitude], zoom);

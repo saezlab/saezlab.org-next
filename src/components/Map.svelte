@@ -9,9 +9,10 @@
     export let markerMarkup: string = '';
 
     const { latitude, longitude } = location;
+    const baseurl = import.meta.env.BASE_URL;
 </script>
 
-<figure use:setMap={{ latitude, longitude, zoom, markerMarkup }} />
+<figure use:setMap={{ latitude, longitude, zoom, markerMarkup, baseurl }} />
 
 <style>
     figure {

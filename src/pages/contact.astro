@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import A from "../components/A.astro";
 import Map from "../components/Map.svelte";
 import "leaflet/dist/leaflet.css";
 const location = { latitude: 49.41297, longitude: 8.67068 };
@@ -14,8 +15,8 @@ const location = { latitude: 49.41297, longitude: 8.67068 };
             <p>jobs.saez@uni-heidelberg.de</p>
         <h3>Team members</h3>
             <p>
-                You can find the email of lab members in the <a
-                href="/people/">People</a> section.
+                You can find the email of lab members in the <A
+                href="/people/">People</A> section.
             </p>
         <h3>Location</h3>
             <Map client:load {location} zoom={17} markerMarkup="We are on the 10th floor<br>\
