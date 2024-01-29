@@ -36,17 +36,17 @@ a {
 
 /* nav styles */
 
-.hamburger {
+.menu {
   padding-right: 20px;
   cursor: pointer;
 }
 
-.hamburger .line {
+.menu .line {
   display: block;
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #ff9776;
+  background-color: #176fc1;
 }
 
 .nav-links {
@@ -97,7 +97,7 @@ a {
     /* padding-right: 0; */
   }
 
-  .hamburger {
+  .menu {
     display: none;
   }
 }
