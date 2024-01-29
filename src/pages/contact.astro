@@ -1,7 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Map from "../components/Map.svelte";
-import MapLabel from "../components/MapLabel.astro";
 import "leaflet/dist/leaflet.css";
 const location = { latitude: 49.41297, longitude: 8.67068 };
 ---
@@ -9,7 +8,7 @@ const location = { latitude: 49.41297, longitude: 8.67068 };
 <BaseLayout title="Contact">
 
     <div>
-        <h3>General Contact Email</h3>
+        <h3>Main email address</h3>
             <p>admin.saez@uni-heidelberg.de</p>
         <h3>Jobs, internships</h3>
             <p>jobs.saez@uni-heidelberg.de</p>
@@ -19,7 +18,8 @@ const location = { latitude: 49.41297, longitude: 8.67068 };
                 href="/people/">People</a> section.
             </p>
         <h3>Location</h3>
-            <Map client:load {location} zoom={17} markerMarkup="We are on the 10th floor<br>of the Marsilius-Arkaden<br>\
+            <Map client:load {location} zoom={17} markerMarkup="We are on the 10th floor<br>\
+                of the Marsilius-Arkaden<br>\
                 West tower (INF130.3).<br>" />
             <p>
                 Institute for Computational Biomedicine
