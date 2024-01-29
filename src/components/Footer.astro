@@ -3,15 +3,19 @@ import Social from "./Social.astro";
 ---
 
 <style>
-   footer {
+    footer {
        display: flex;
        gap: 0.5rem;
        margin-top: 2rem;
-   }
+       flex-direction: column;
+    }
 </style>
 
 <footer>
-    <Social platform="twitter" username="saezlab" />
-    <Social platform="github" username="saezlab" />
-    <Social platform="youtube" username="@saezlab7983" />
+    <div><p><em>Copyright Saez Lab 2024</em></p></div>
+    <div>
+        <Social platform="twitter" username="saezlab" />
+        <Social platform="github" username="saezlab" />
+        <Social platform="youtube" username="@saezlab7983" />
+    </div>
 </footer>
