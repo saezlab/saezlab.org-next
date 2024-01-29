@@ -13,8 +13,9 @@ The site uses the [Astro framework](https://astro.build/) with
 This stuff is very easy to work with, I encourage everyone to play around with
 it and contribute to the design of our new page.
 
-```[tasklist]
 ## Roadmap
+
+```[tasklist]
 - [x] Home
 - [x] Jobs
 - [x] Contact
