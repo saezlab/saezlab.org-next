@@ -1,0 +1,23 @@
+<script lang="ts">
+    import { setMap } from '~shared/actions/map';
+
+    export let location: {
+        latitude: number;
+        longitude: number;
+    };
+    export let zoom: number = 17;
+    export let markerMarkup: string = '';
+
+    const { latitude, longitude } = location;
+</script>
+
+<figure use:setMap={{ latitude, longitude, zoom, markerMarkup }} />
+
+<style>
+    figure {
+        width: 30rem;
+        height: 15rem;
+        box-shadow: var(--shadow-elevation-low);
+        margin-left: 0px;
+    }
+</style>
