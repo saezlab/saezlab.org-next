@@ -1,0 +1,555 @@
+763	Cyrface	_edit_lock	1705768526:1
+763	Cyrface	_edit_last	1
+763	Cyrface	tool_short_description	Interface between R and Cytoscape.
+763	Cyrface	_tool_short_description	field_593de03c5cefd
+763	Cyrface	tool_full_description	Cyrface establishes an interface between R and Cytoscape by using different Java-R libraries, e.g. Rserve, RCaller. Cyrface can be used as a Cytos cape plug-in, e.g. to run R commands within Cytoscape, or used as a library to allow your plug-in to connect to R.
+763	Cyrface	_tool_full_description	field_593de0615cefe
+763	Cyrface	tool_website	https://saezlab.github.io/cyrface/
+763	Cyrface	_tool_website	field_593de0bd5cf00
+763	Cyrface	tool_code_repository	https://github.com/saezlab/cyrface/
+763	Cyrface	_tool_code_repository	field_593de09d5ceff
+763	Cyrface	tool_publications	a:1:{i:0;s:3:"551";}
+763	Cyrface	_tool_publications	field_593de0d85cf01
+763	Cyrface	_thumbnail_id	776
+763	Cyrface	tool_featured	0
+763	Cyrface	_tool_featured	field_5ea985983cc07
+763	Cyrface	tool_category	a:1:{i:0;s:4:"tool";}
+763	Cyrface	_tool_category	field_65abdecd44896
+764	CySBGN	_edit_lock	1705768584:1
+764	CySBGN	_edit_last	1
+764	CySBGN	tool_short_description	Cytoscape plug-in for SBGN maps.
+764	CySBGN	_tool_short_description	field_593de03c5cefd
+764	CySBGN	tool_full_description	CySBGN is a Cytoscape plug-in that extends the use of Cytoscape visualization and analysis features to SBGN maps. CySBGN adds support to Cytoscape to import, export, visualize, validate and analyse SBGN maps.
+764	CySBGN	_tool_full_description	field_593de0615cefe
+764	CySBGN	tool_website	https://saezlab.github.io/cysbgn/
+764	CySBGN	_tool_website	field_593de0bd5cf00
+764	CySBGN	tool_code_repository	https://github.com/saezlab/cysbgn
+764	CySBGN	_tool_code_repository	field_593de09d5ceff
+764	CySBGN	tool_publications	a:1:{i:0;s:3:"558";}
+764	CySBGN	_tool_publications	field_593de0d85cf01
+764	CySBGN	_thumbnail_id	777
+764	CySBGN	tool_featured	0
+764	CySBGN	_tool_featured	field_5ea985983cc07
+764	CySBGN	tool_category	a:1:{i:0;s:4:"tool";}
+764	CySBGN	_tool_category	field_65abdecd44896
+768	KinAct	_edit_lock	1705763454:1
+768	KinAct	_edit_last	1
+768	KinAct	tool_short_description	Python package to infer kinase activities from phosphoproteomics datasets.
+768	KinAct	_tool_short_description	field_593de03c5cefd
+768	KinAct	tool_full_description	KinAct is a python package with different computational methods to infer kinase activities from phosphoproteomics datasets.
+768	KinAct	_tool_full_description	field_593de0615cefe
+768	KinAct	tool_website	http://saezlab.github.io/kinact/
+768	KinAct	_tool_website	field_593de0bd5cf00
+768	KinAct	tool_code_repository	https://github.com/saezlab/kinact
+768	KinAct	_tool_code_repository	field_593de09d5ceff
+768	KinAct	tool_publications	
+768	KinAct	_tool_publications	field_593de0d85cf01
+768	KinAct	_thumbnail_id	781
+768	KinAct	tool_featured	0
+768	KinAct	_tool_featured	field_5ea985983cc07
+768	KinAct	tool_category	
+768	KinAct	_tool_category	field_65abdecd44896
+772	iNRG-cMap	_edit_lock	1705763499:1
+772	iNRG-cMap	_edit_last	1
+772	iNRG-cMap	tool_short_description	An R package for interactive network guided connectivity mapping.
+772	iNRG-cMap	_tool_short_description	field_593de03c5cefd
+772	iNRG-cMap	tool_full_description	iNRG_cMap (iterative NetwoRk Guided connectivity Mapping) a strategy that refines these unbiased approaches by making use of prior knowledge about the analysed compounds to compute refined transcriptional signatures of drug response. Making use of transcriptional data from the Connectivity Map and building on the MANTRA method, iNRG_cMap is able to disentangle spurious effects due to non-relevant secondary drug effects, thus enhancing the predictive power of the resulting refined signatures.
+772	iNRG-cMap	_tool_full_description	field_593de0615cefe
+772	iNRG-cMap	tool_website	https://saezlab.github.io/iNRG_cMAP/
+772	iNRG-cMap	_tool_website	field_593de0bd5cf00
+772	iNRG-cMap	tool_code_repository	https://github.com/saezlab/iNRG_cMAP
+772	iNRG-cMap	_tool_code_repository	field_593de09d5ceff
+772	iNRG-cMap	tool_publications	a:1:{i:0;s:3:"523";}
+772	iNRG-cMap	_tool_publications	field_593de0d85cf01
+772	iNRG-cMap	_thumbnail_id	784
+772	iNRG-cMap	tool_featured	0
+772	iNRG-cMap	_tool_featured	field_5ea985983cc07
+772	iNRG-cMap	tool_category	
+772	iNRG-cMap	_tool_category	field_65abdecd44896
+645	CellNOpt	_edit_last	1
+645	CellNOpt	_edit_lock	1705769595:1
+645	CellNOpt	tool_short_description	Create logic models of signaling networks and train them with perturbation data
+645	CellNOpt	_tool_short_description	field_593de03c5cefd
+645	CellNOpt	tool_full_description	CellNetOptimizer (CellNOpt) is a toolbox for creating logic-based models of signal transduction networks, and training them against high-throughput biochemical data, and is freely available both for R and matlab.
+645	CellNOpt	_tool_full_description	field_593de0615cefe
+645	CellNOpt	tool_website	https://saezlab.github.io/CellNOptR/
+645	CellNOpt	_tool_website	field_593de0bd5cf00
+645	CellNOpt	tool_code_repository	https://github.com/cellnopt/cellnopt
+645	CellNOpt	_tool_code_repository	field_593de09d5ceff
+645	CellNOpt	tool_publications	a:1:{i:0;s:4:"1239";}
+645	CellNOpt	_tool_publications	field_593de0d85cf01
+645	CellNOpt	_thumbnail_id	646
+645	CellNOpt	featured	1
+645	CellNOpt	_featured	field_5ea985983cc07
+645	CellNOpt	tool_featured	1
+645	CellNOpt	_tool_featured	field_5ea985983cc07
+645	CellNOpt	tool_category	a:1:{i:0;s:4:"tool";}
+645	CellNOpt	_tool_category	field_65abdecd44896
+647	OmniPath	_edit_last	1
+647	OmniPath	_edit_lock	1705769463:1
+647	OmniPath	_thumbnail_id	1214
+647	OmniPath	tool_short_description	Molecular prior knowledge from more than 170 databases. Pathways, intercellular communication and more.
+647	OmniPath	_tool_short_description	field_593de03c5cefd
+647	OmniPath	tool_full_description	OmniPath is a comprehensive collection of molecular prior knowledge such as literature curated human and rodent signaling pathways, enzyme-substrate interactions, protein complexes, molecular annotations (function, localization and many others) and inter-cellular communication roles. OmniPath is built by pypath, a powerful Python module for molecular networks and pathways analysis. It is available by a web service at <a href="https://omnipathdb.org/">https://omnipathdb.org/</a>, an <a href="http://bioconductor.org/packages/release/bioc/html/OmnipathR.html">R/Bioconductor package</a> <a href="https://github.com/saezlab/OmnipathR">OmnipathR</a>, a <a href="https://github.com/saezlab/omnipath">Python client</a> and the <a href="http://apps.cytoscape.org/apps/omnipath">OmniPath Cytoscape app</a>.
+647	OmniPath	_tool_full_description	field_593de0615cefe
+647	OmniPath	tool_website	https://omnipathdb.org/
+647	OmniPath	_tool_website	field_593de0bd5cf00
+647	OmniPath	tool_code_repository	https://github.com/saezlab/pypath
+647	OmniPath	_tool_code_repository	field_593de09d5ceff
+647	OmniPath	tool_publications	a:3:{i:0;s:4:"1341";i:1;s:3:"508";i:2;s:4:"1193";}
+647	OmniPath	_tool_publications	field_593de0d85cf01
+647	OmniPath	featured	1
+647	OmniPath	_featured	field_5ea985983cc07
+647	OmniPath	tool_featured	1
+647	OmniPath	_tool_featured	field_5ea985983cc07
+647	OmniPath	_yoast_wpseo_metadesc	Molecular prior knowledge combined from more than 100 databases. Pathways, intercellular communication and more.
+647	OmniPath	_yoast_wpseo_content_score	30
+647	OmniPath	_yoast_wpseo_estimated-reading-time-minutes	
+647	OmniPath	tool_category	a:1:{i:0;s:8:"database";}
+647	OmniPath	_tool_category	field_65abdecd44896
+649	PHONEMeS	_edit_last	1
+649	PHONEMeS	_edit_lock	1705769153:1
+649	PHONEMeS	tool_short_description	Build causal signaling networks from untargeted  mass-spectrometry Phosphoproteomics and prior knowledge
+649	PHONEMeS	_tool_short_description	field_593de03c5cefd
+649	PHONEMeS	tool_full_description	PHONEMEs  builds logic models from discovery mass-spectrometry based Phosphoproteomic data.
+649	PHONEMeS	_tool_full_description	field_593de0615cefe
+649	PHONEMeS	tool_website	https://saezlab.github.io/PHONEMeS/
+649	PHONEMeS	_tool_website	field_593de0bd5cf00
+649	PHONEMeS	tool_code_repository	https://github.com/saezlab/PHONEMeS/
+649	PHONEMeS	_tool_code_repository	field_593de09d5ceff
+649	PHONEMeS	tool_publications	a:2:{i:0;s:3:"524";i:1;s:4:"1501";}
+649	PHONEMeS	_tool_publications	field_593de0d85cf01
+649	PHONEMeS	_thumbnail_id	650
+649	PHONEMeS	featured	1
+649	PHONEMeS	_featured	field_5ea985983cc07
+649	PHONEMeS	tool_featured	0
+649	PHONEMeS	_tool_featured	field_5ea985983cc07
+649	PHONEMeS	tool_category	a:1:{i:0;s:4:"tool";}
+649	PHONEMeS	_tool_category	field_65abdecd44896
+762	BioServices	_edit_lock	1705865175:1
+762	BioServices	_edit_last	1
+762	BioServices	tool_short_description	Python package to access Bioinformatics Web Services.
+762	BioServices	_tool_short_description	field_593de03c5cefd
+762	BioServices	tool_full_description	BioServices is a Python package that provides access to many Bioinformatics Web Services (e.g., UniProt) and a framework to easily implement Web Service wrappers (based on WSDL/SOAP or REST protocols).
+762	BioServices	_tool_full_description	field_593de0615cefe
+762	BioServices	tool_website	https://pypi.python.org/pypi/bioservices
+762	BioServices	_tool_website	field_593de0bd5cf00
+762	BioServices	tool_code_repository	https://github.com/cokelaer/bioservices
+762	BioServices	_tool_code_repository	field_593de09d5ceff
+762	BioServices	tool_publications	a:1:{i:0;s:3:"550";}
+762	BioServices	_tool_publications	field_593de0d85cf01
+762	BioServices	_thumbnail_id	775
+762	BioServices	tool_featured	0
+762	BioServices	_tool_featured	field_5ea985983cc07
+762	BioServices	tool_category	a:1:{i:0;s:8:"database";}
+762	BioServices	_tool_category	field_65abdecd44896
+765	DREAMTools	_edit_lock	1705769009:1
+765	DREAMTools	_edit_last	1
+765	DREAMTools	tool_short_description	Code used in the scoring of DREAM challenges.
+765	DREAMTools	_tool_short_description	field_593de03c5cefd
+765	DREAMTools	tool_full_description	DREAMTools provides the code used in the scoring of <a href="http://dreamchallenges.org/" target="_blank" rel="noopener">DREAM</a> challenges that pose fundamental questions about system biology and translational medicine.
+765	DREAMTools	_tool_full_description	field_593de0615cefe
+765	DREAMTools	tool_website	http://dreamtools.readthedocs.io/en/latest/
+765	DREAMTools	_tool_website	field_593de0bd5cf00
+765	DREAMTools	tool_code_repository	https://github.com/dreamtools/dreamtools
+765	DREAMTools	_tool_code_repository	field_593de09d5ceff
+765	DREAMTools	tool_publications	a:1:{i:0;s:3:"522";}
+765	DREAMTools	_tool_publications	field_593de0d85cf01
+765	DREAMTools	_thumbnail_id	778
+765	DREAMTools	tool_featured	0
+765	DREAMTools	_tool_featured	field_5ea985983cc07
+765	DREAMTools	tool_category	a:1:{i:0;s:4:"tool";}
+765	DREAMTools	_tool_category	field_65abdecd44896
+766	DrugVsDisease	_edit_lock	1705768837:1
+766	DrugVsDisease	_edit_last	1
+766	DrugVsDisease	tool_short_description	R/Cytoscape pipeline to compare drug and disease gene expression profiles.
+766	DrugVsDisease	_tool_short_description	field_593de03c5cefd
+766	DrugVsDisease	tool_full_description	DrugVsDisease (DvD) provides a pipeline, available through R or Cytoscape, for the comparison of drug and disease gene expression profiles from public microarray repositories.
+766	DrugVsDisease	_tool_full_description	field_593de0615cefe
+766	DrugVsDisease	tool_website	https://saezlab.github.io/DrugVsDisease/
+766	DrugVsDisease	_tool_website	field_593de0bd5cf00
+766	DrugVsDisease	tool_code_repository	https://github.com/saezlab/DrugVsDisease
+766	DrugVsDisease	_tool_code_repository	field_593de09d5ceff
+766	DrugVsDisease	tool_publications	a:1:{i:0;s:3:"562";}
+766	DrugVsDisease	_tool_publications	field_593de0d85cf01
+766	DrugVsDisease	_thumbnail_id	779
+766	DrugVsDisease	tool_featured	0
+766	DrugVsDisease	_tool_featured	field_5ea985983cc07
+766	DrugVsDisease	tool_category	a:1:{i:0;s:4:"tool";}
+766	DrugVsDisease	_tool_category	field_65abdecd44896
+767	GDSCTools	_edit_lock	1705768786:1
+767	GDSCTools	_edit_last	1
+767	GDSCTools	tool_short_description	Python library dedicated to the study pharmacogenomic relationships.
+767	GDSCTools	_tool_short_description	field_593de03c5cefd
+767	GDSCTools	tool_full_description	GDSCTools is an open-source Python library dedicated to the study pharmacogenomic relationships in the context of the <a href="http://www.cancerrxgene.org/" target="_blank" rel="noopener">GDSC (Genomics of Drug Sensitivity in Cancer)</a> project. The main developer is <a href="https://research.pasteur.fr/fr/member/thomas-cokelaer/" target="_blank" rel="noopener">Thomas Cokelaer (Institut Pasteur)</a>, and it is a joint effort with the groups of <a href="http://www.sanger.ac.uk/people/directory/garnett-mathew" target="_blank" rel="noopener">Mathew Garnett (Sanger Institute)</a> and Julio Saez-Rodriguez.\
+\
+GDSCTools is hosted by <a href="https://github.com/CancerRxGene/gdsctools" target="_blank" rel="noopener"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a> and documented <a href="http://gdsctools.readthedocs.io/en/master/" target="_blank" rel="noopener">here</a>.
+767	GDSCTools	_tool_full_description	field_593de0615cefe
+767	GDSCTools	tool_website	http://gdsctools.readthedocs.io/en/master/
+767	GDSCTools	_tool_website	field_593de0bd5cf00
+767	GDSCTools	tool_code_repository	https://github.com/CancerRxGene/gdsctools
+767	GDSCTools	_tool_code_repository	field_593de09d5ceff
+767	GDSCTools	tool_publications	a:1:{i:0;s:3:"754";}
+767	GDSCTools	_tool_publications	field_593de0d85cf01
+767	GDSCTools	_thumbnail_id	780
+767	GDSCTools	tool_featured	0
+767	GDSCTools	_tool_featured	field_5ea985983cc07
+767	GDSCTools	tool_category	a:1:{i:0;s:4:"tool";}
+767	GDSCTools	_tool_category	field_65abdecd44896
+769	MEIGO	_edit_lock	1705768726:1
+769	MEIGO	_edit_last	1
+769	MEIGO	tool_short_description	Global optimization toolbox including metaheuristic and Bayesian methods.
+769	MEIGO	_tool_short_description	field_593de03c5cefd
+769	MEIGO	tool_full_description	MEIGO is a global optimization toolbox that includes a number of metaheuristic methods as well as a Bayesian inference method for parameter estimation. It is developed jointly with the group of Julio Banga.\
+\
+MEIGO is described in (<a href="http://europepmc.org/abstract/MED/24885957" target="_blank" rel="noopener">Egea et al, BMC Bioinformatics, 2014</a>), and hosted <a href="http://gingproc.iim.csic.es/meigo.html" target="_blank" rel="noopener">here</a>.
+769	MEIGO	_tool_full_description	field_593de0615cefe
+769	MEIGO	tool_website	http://gingproc.iim.csic.es/meigo.html
+769	MEIGO	_tool_website	field_593de0bd5cf00
+769	MEIGO	tool_code_repository	
+769	MEIGO	_tool_code_repository	field_593de09d5ceff
+769	MEIGO	tool_publications	a:1:{i:0;s:3:"544";}
+769	MEIGO	_tool_publications	field_593de0d85cf01
+769	MEIGO	_thumbnail_id	782
+769	MEIGO	tool_featured	0
+769	MEIGO	_tool_featured	field_5ea985983cc07
+769	MEIGO	tool_category	a:1:{i:0;s:4:"tool";}
+769	MEIGO	_tool_category	field_65abdecd44896
+770	Birewire	_edit_lock	1705865479:1
+770	Birewire	_edit_last	1
+770	Birewire	tool_short_description	R package for the randomisation of bipartite graphs.
+770	Birewire	_tool_short_description	field_593de03c5cefd
+770	Birewire	tool_full_description	Birewire is an R package implementing high-performing routines for the randomisation of bipartite graphs preserving their node degrees (i.e. Network Rewiring), through the Switching Algorithm (SA) . BiRewire analytically estimates the number of Switching Steps to be performed in order for the similarity between the original network and its rewired version to reach a plateau (i.e. to achieve the maximal level of randomness) according to the lower bound.
+770	Birewire	_tool_full_description	field_593de0615cefe
+770	Birewire	tool_website	https://saezlab.github.io/BiRewire/
+770	Birewire	_tool_website	field_593de0bd5cf00
+770	Birewire	tool_code_repository	https://github.com/saezlab/BiRewire
+770	Birewire	_tool_code_repository	field_593de09d5ceff
+770	Birewire	tool_publications	a:1:{i:0;s:3:"503";}
+770	Birewire	_tool_publications	field_593de0d85cf01
+770	Birewire	_thumbnail_id	783
+770	Birewire	tool_featured	0
+770	Birewire	_tool_featured	field_5ea985983cc07
+770	Birewire	tool_category	a:1:{i:0;s:4:"tool";}
+770	Birewire	_tool_category	field_65abdecd44896
+773	SLAPenrich	_edit_lock	1705768406:1
+773	SLAPenrich	_edit_last	1
+773	SLAPenrich	tool_short_description	R package to identify pathway-level enrichments of genetic alterations.
+773	SLAPenrich	_tool_short_description	field_593de03c5cefd
+773	SLAPenrich	tool_full_description	SLAPEnrich, a statistical method implemented in an open source R package, to identify pathway-level enrichments of genetic alterations.
+773	SLAPenrich	_tool_full_description	field_593de0615cefe
+773	SLAPenrich	tool_website	https://saezlab.github.io/SLAPenrich/
+773	SLAPenrich	_tool_website	field_593de0bd5cf00
+773	SLAPenrich	tool_code_repository	https://github.com/saezlab/SLAPenrich
+773	SLAPenrich	_tool_code_repository	field_593de09d5ceff
+773	SLAPenrich	tool_publications	a:1:{i:0;s:3:"878";}
+773	SLAPenrich	_tool_publications	field_593de0d85cf01
+773	SLAPenrich	_thumbnail_id	785
+773	SLAPenrich	tool_featured	0
+773	SLAPenrich	_tool_featured	field_5ea985983cc07
+773	SLAPenrich	tool_category	a:1:{i:0;s:4:"tool";}
+773	SLAPenrich	_tool_category	field_65abdecd44896
+774	PROGENy	_edit_lock	1705787047:1
+774	PROGENy	_edit_last	1
+774	PROGENy	tool_short_description	Collection of target genes (footprints) of signaling pathways
+774	PROGENy	_tool_short_description	field_593de03c5cefd
+774	PROGENy	tool_full_description	PROGENy (Pathway RespOnsive GENes) is a collection of  target genes of diverse signaling pathways. It can be used to  infer activity of signaling pathways from  transcriptomics data using <a href="https://decoupler-py.readthedocs.io/en/latest/index.html">decoupler.</a>
+774	PROGENy	_tool_full_description	field_593de0615cefe
+774	PROGENy	tool_website	https://saezlab.github.io/progeny/
+774	PROGENy	_tool_website	field_593de0bd5cf00
+774	PROGENy	tool_code_repository	https://github.com/saezlab/progeny
+774	PROGENy	_tool_code_repository	field_593de09d5ceff
+774	PROGENy	tool_publications	a:2:{i:0;s:3:"758";i:1;s:4:"1158";}
+774	PROGENy	_tool_publications	field_593de0d85cf01
+774	PROGENy	_thumbnail_id	3923
+774	PROGENy	featured	1
+774	PROGENy	_featured	field_5ea985983cc07
+774	PROGENy	tool_featured	1
+774	PROGENy	_tool_featured	field_5ea985983cc07
+774	PROGENy	tool_category	a:1:{i:0;s:8:"database";}
+774	PROGENy	_tool_category	field_65abdecd44896
+858	DoRothEA	_edit_lock	1705865075:1
+858	DoRothEA	_edit_last	1
+858	DoRothEA	_thumbnail_id	3921
+858	DoRothEA	tool_short_description	Manually curated human regulons of genes downstream of Transcription Factors
+858	DoRothEA	_tool_short_description	field_593de03c5cefd
+858	DoRothEA	tool_full_description	A collection of genes controlled by Transcription Factors (regulons) obtained from different resources from manually curated to inferred from transcriptomic. It can be used to estimate Transcription Factors activities using <a href="https://decoupler-py.readthedocs.io/en/latest/index.html">decoupler.</a>
+858	DoRothEA	_tool_full_description	field_593de0615cefe
+858	DoRothEA	tool_website	https://saezlab.github.io/dorothea
+858	DoRothEA	_tool_website	field_593de0bd5cf00
+858	DoRothEA	tool_code_repository	https://github.com/saezlab/dorothea
+858	DoRothEA	_tool_code_repository	field_593de09d5ceff
+858	DoRothEA	tool_publications	a:3:{i:0;s:3:"751";i:1;s:4:"1136";i:2;s:4:"1158";}
+858	DoRothEA	_tool_publications	field_593de0d85cf01
+858	DoRothEA	featured	1
+858	DoRothEA	_featured	field_5ea985983cc07
+858	DoRothEA	tool_featured	1
+858	DoRothEA	_tool_featured	field_5ea985983cc07
+858	DoRothEA	_yoast_wpseo_content_score	30
+858	DoRothEA	tool_category	a:1:{i:0;s:8:"database";}
+858	DoRothEA	_tool_category	field_65abdecd44896
+862	CARNIVAL	_edit_lock	1705865117:1
+862	CARNIVAL	_edit_last	1
+862	CARNIVAL	tool_short_description	Find causal paths upstream of transcription factors in signaling networks from transcriptomics
+862	CARNIVAL	_tool_short_description	field_593de03c5cefd
+862	CARNIVAL	tool_full_description	CARNIVAL (CAusal Reasoning for Network identification using Integer VALue programming) allows to derive perturbed signalling pathways topology after drugs perturbation based on gene expression data. CARNIVAL is available as an R package, also in Bioconductor.
+862	CARNIVAL	_tool_full_description	field_593de0615cefe
+862	CARNIVAL	tool_website	http://saezlab.github.io/CARNIVAL
+862	CARNIVAL	_tool_website	field_593de0bd5cf00
+862	CARNIVAL	tool_code_repository	http://github.com/saezlab/carnival 
+862	CARNIVAL	_tool_code_repository	field_593de09d5ceff
+862	CARNIVAL	tool_publications	a:1:{i:0;s:4:"1053";}
+862	CARNIVAL	_tool_publications	field_593de0d85cf01
+862	CARNIVAL	_thumbnail_id	3920
+862	CARNIVAL	featured	1
+862	CARNIVAL	_featured	field_5ea985983cc07
+862	CARNIVAL	tool_featured	1
+862	CARNIVAL	_tool_featured	field_5ea985983cc07
+862	CARNIVAL	tool_category	a:1:{i:0;s:4:"tool";}
+862	CARNIVAL	_tool_category	field_65abdecd44896
+1020	lipyd	_edit_lock	1705768101:1
+1020	lipyd	_edit_last	1
+1020	lipyd	_thumbnail_id	1021
+1020	lipyd	tool_short_description	Python module for lipidomics LC MS/MS data analysis
+1020	lipyd	_tool_short_description	field_593de03c5cefd
+1020	lipyd	tool_full_description	
+1020	lipyd	_tool_full_description	field_593de0615cefe
+1020	lipyd	tool_website	https://saezlab.github.io/lipyd
+1020	lipyd	_tool_website	field_593de0bd5cf00
+1020	lipyd	tool_code_repository	https://github.com/saezlab/lipyd
+1020	lipyd	_tool_code_repository	field_593de09d5ceff
+1020	lipyd	tool_publications	
+1020	lipyd	_tool_publications	field_593de0d85cf01
+1020	lipyd	tool_featured	0
+1020	lipyd	_tool_featured	field_5ea985983cc07
+1020	lipyd	tool_category	a:1:{i:0;s:4:"tool";}
+1020	lipyd	_tool_category	field_65abdecd44896
+1258	COSMOS	_edit_lock	1705768065:1
+1258	COSMOS	_edit_last	1
+1258	COSMOS	_thumbnail_id	1259
+1258	COSMOS	tool_short_description	Mechanistic integration of multi-omics with prior knowledge into causal networks
+1258	COSMOS	_tool_short_description	field_593de03c5cefd
+1258	COSMOS	tool_full_description	COSMOS (Causal Oriented Search of Multi-Omic Space) is a method that integrates phosphoproteomics, transcriptomics, and metabolomics data sets. COSMOS leverages extensive prior knowledge of signaling pathways, metabolic networks, and gene regulation with computational methods to estimate activities of transcription factors and kinases as well as network-level causal reasoning. This pipeline can provide mechanistic explanations for experimental observations across multiple omic data sets.
+1258	COSMOS	_tool_full_description	field_593de0615cefe
+1258	COSMOS	tool_website	https://saezlab.github.io/cosmosR/
+1258	COSMOS	_tool_website	field_593de0bd5cf00
+1258	COSMOS	tool_code_repository	https://github.com/saezlab/COSMOS/
+1258	COSMOS	_tool_code_repository	field_593de09d5ceff
+1258	COSMOS	tool_publications	a:1:{i:0;s:4:"1257";}
+1258	COSMOS	_tool_publications	field_593de0d85cf01
+1258	COSMOS	featured	1
+1258	COSMOS	_featured	field_5ea985983cc07
+1258	COSMOS	tool_featured	1
+1258	COSMOS	_tool_featured	field_5ea985983cc07
+1258	COSMOS	_yoast_wpseo_content_score	30
+1258	COSMOS	_yoast_wpseo_estimated-reading-time-minutes	
+1258	COSMOS	tool_category	a:1:{i:0;s:4:"tool";}
+1258	COSMOS	_tool_category	field_65abdecd44896
+1267	MISTy	_edit_lock	1705783507:1
+1267	MISTy	_edit_last	1
+1267	MISTy	tool_short_description	Explainable machine learning models for single-cell, highly multiplexed, spatially resolved data\
+
+1267	MISTy	_tool_short_description	field_593de03c5cefd
+1267	MISTy	tool_full_description	<span style="font-weight: 400;">The Multiview Intercellular SpaTial modeling framework (MISTy) is an explainable machine learning framework for knowledge extraction and analysis of single-cell, highly multiplexed, spatially resolved data. MISTy facilitates an in-depth understanding of marker interactions by profiling the intra- and intercellular relationships. MISTy is a flexible framework able to process a custom number of views. Each of these views can describe a different spatial context, i.e., define a relationship among the observed expressions of the markers, such as intracellular regulation or paracrine regulation, but also, the views can also capture cell-type specific relationships, capture relations between functional footprints or focus on relations between different anatomical regions. Each MISTy view is considered as a potential source of variability in the measured marker expressions. Each MISTy view is then analyzed for its contribution to the total expression of each marker and is explained in terms of the interactions with other measurements that led to the observed contribution.</span>
+1267	MISTy	_tool_full_description	field_593de0615cefe
+1267	MISTy	tool_website	https://saezlab.github.io/mistyR/
+1267	MISTy	_tool_website	field_593de0bd5cf00
+1267	MISTy	tool_code_repository	https://github.com/saezlab/mistyR/
+1267	MISTy	_tool_code_repository	field_593de09d5ceff
+1267	MISTy	tool_publications	a:1:{i:0;s:4:"1270";}
+1267	MISTy	_tool_publications	field_593de0d85cf01
+1267	MISTy	tool_featured	1
+1267	MISTy	_tool_featured	field_5ea985983cc07
+1267	MISTy	_thumbnail_id	3919
+1267	MISTy	tool_category	
+1267	MISTy	_tool_category	field_65abdecd44896
+1435	decoupleR	_edit_lock	1705783481:1
+1435	decoupleR	_edit_last	1
+1435	decoupleR	tool_short_description	Estimate biological activities from omics data
+1435	decoupleR	_tool_short_description	field_593de03c5cefd
+1435	decoupleR	tool_full_description	Many methods allow us to extract biological activities from omics data using information from prior knowledge resources. decoupleR is a Bioconductor and Python package containing different statistical methods to extract these signatures within a unified framework. It can be used with any omic, as long as its features can be linked to a biological process based on prior knowledge. For example, in transcriptomic, gene sets regulated by a transcription factor, or in phospho-proteomics phosphosites targeted by a kinase.
+1435	decoupleR	_tool_full_description	field_593de0615cefe
+1435	decoupleR	tool_website	https://decoupler-py.readthedocs.io/en/latest/index.html
+1435	decoupleR	_tool_website	field_593de0bd5cf00
+1435	decoupleR	tool_code_repository	https://github.com/saezlab/decoupler-py
+1435	decoupleR	_tool_code_repository	field_593de09d5ceff
+1435	decoupleR	tool_publications	a:1:{i:0;s:4:"3596";}
+1435	decoupleR	_tool_publications	field_593de0d85cf01
+1435	decoupleR	tool_featured	1
+1435	decoupleR	_tool_featured	field_5ea985983cc07
+1435	decoupleR	_yoast_wpseo_content_score	30
+1435	decoupleR	_thumbnail_id	3918
+1435	decoupleR	_yoast_wpseo_metadesc	An R package to decouple gene sets from statistics
+1435	decoupleR	tool_category	
+1435	decoupleR	_tool_category	field_65abdecd44896
+2183	LIANA	_edit_lock	1705770293:1
+2183	LIANA	_edit_last	1
+2183	LIANA	_thumbnail_id	3898
+2183	LIANA	tool_short_description	Estimate ligand-receptor interactions from single-cell transcriptomics using a variety of resources and methods 
+2183	LIANA	_tool_short_description	field_593de03c5cefd
+2183	LIANA	tool_full_description	LIANA: a LIgand-receptor ANalysis frAmework to estimate ligand-receptor interactions from single-cell transcriptomics using different resources and methods. Specifically, it decouples the methods from their corresponding resources, and enables any method to be used with any resource. It further calculates a consensus across the different methods.
+2183	LIANA	_tool_full_description	field_593de0615cefe
+2183	LIANA	tool_website	https://saezlab.github.io/liana/
+2183	LIANA	_tool_website	field_593de0bd5cf00
+2183	LIANA	tool_code_repository	https://github.com/saezlab/liana
+2183	LIANA	_tool_code_repository	field_593de09d5ceff
+2183	LIANA	tool_publications	a:1:{i:0;s:4:"3665";}
+2183	LIANA	_tool_publications	field_593de0d85cf01
+2183	LIANA	tool_featured	0
+2183	LIANA	_tool_featured	field_5ea985983cc07
+2183	LIANA	tool_category	a:1:{i:0;s:4:"tool";}
+2183	LIANA	_tool_category	field_65abdecd44896
+3485	FUNKI	_edit_lock	1705783408:1
+3485	FUNKI	_edit_last	1
+3485	FUNKI	tool_short_description	User-friendly interface to analyze multiomic data using footprint methods 
+3485	FUNKI	_tool_short_description	field_593de03c5cefd
+3485	FUNKI	tool_full_description	FUNKI (FUNctional analysis KIt) is an user-friendly interface developed in R, and designed using Shiny, to analyze multiomic data (mainly transcriptomics, phosphoproteomics and metabolomics) using footprint methods. FUNKI provides an interface for DoRothEA, PROGENy, KinAct, CARNIVAL and COSMOS. All methods run on multiple or differential analysis of bulk data for human samples. Besides, DoRothEA, PROGENy and CARNIVAL can also handle data coming from single-cell experiments and mouse.
+3485	FUNKI	_tool_full_description	field_593de0615cefe
+3485	FUNKI	tool_website	 https://saezlab.github.io/ShinyFUNKI/
+3485	FUNKI	_tool_website	field_593de0bd5cf00
+3485	FUNKI	tool_code_repository	https://github.com/saezlab/ShinyFUNKI
+3485	FUNKI	_tool_code_repository	field_593de09d5ceff
+3485	FUNKI	tool_publications	a:1:{i:0;s:4:"3487";}
+3485	FUNKI	_tool_publications	field_593de0d85cf01
+3485	FUNKI	tool_featured	0
+3485	FUNKI	_tool_featured	field_5ea985983cc07
+3485	FUNKI	_thumbnail_id	3917
+3485	FUNKI	tool_category	
+3485	FUNKI	_tool_category	field_65abdecd44896
+3742	ocEAn	_edit_lock	1705769403:1
+3742	ocEAn	_edit_last	1
+3742	ocEAn	_thumbnail_id	3743
+3742	ocEAn	tool_short_description	Metabolic enzyme enrichment analysis
+3742	ocEAn	_tool_short_description	field_593de03c5cefd
+3742	ocEAn	tool_full_description	OCEAN: a method that defines metabolic enzyme footprint from a curated reduced version of the recon2 reaction network. The metabolic enzyme footprints are used to explore coordinated deregulations of metabolite abundances with respect to their position relative to metabolic enzymes. This is similar to Kinase-substrate and TF-targets enrichment analyses.
+3742	ocEAn	_tool_full_description	field_593de0615cefe
+3742	ocEAn	tool_website	https://saezlab.github.io/ocean
+3742	ocEAn	_tool_website	field_593de0bd5cf00
+3742	ocEAn	tool_code_repository	https://github.com/saezlab/ocean
+3742	ocEAn	_tool_code_repository	field_593de09d5ceff
+3742	ocEAn	tool_publications	a:1:{i:0;s:4:"3734";}
+3742	ocEAn	_tool_publications	field_593de0d85cf01
+3742	ocEAn	tool_featured	0
+3742	ocEAn	_tool_featured	field_5ea985983cc07
+3742	ocEAn	tool_category	a:1:{i:0;s:4:"tool";}
+3742	ocEAn	_tool_category	field_65abdecd44896
+3780	BioCypher	_edit_lock	1705782974:1
+3780	BioCypher	_edit_last	1
+3780	BioCypher	_thumbnail_id	3915
+3780	BioCypher	tool_short_description	A unifying framework for biomedical research knowledge graphs
+3780	BioCypher	_tool_short_description	field_593de03c5cefd
+3780	BioCypher	tool_full_description	BioCypher is an open framework for creating versatile knowledge graphs that are grounded in ontologies, with a particular focus on user-friendliness and usability. We streamline the entire process of knowledge representation from primary resources to downstream usage in reproducible and containerised pipelines, and maintain a community for developing and sharing these pipelines.
+3780	BioCypher	_tool_full_description	field_593de0615cefe
+3780	BioCypher	tool_website	https://biocypher.org/
+3780	BioCypher	_tool_website	field_593de0bd5cf00
+3780	BioCypher	tool_code_repository	https://github.com/saezlab/BioCypher
+3780	BioCypher	_tool_code_repository	field_593de09d5ceff
+3780	BioCypher	tool_publications	a:1:{i:0;s:4:"3820";}
+3780	BioCypher	_tool_publications	field_593de0d85cf01
+3780	BioCypher	tool_featured	1
+3780	BioCypher	_tool_featured	field_5ea985983cc07
+3780	BioCypher	tool_category	a:1:{i:0;s:8:"database";}
+3780	BioCypher	_tool_category	field_65abdecd44896
+3894	BioChatter	_edit_lock	1705865015:1
+3894	BioChatter	_edit_last	1
+3894	BioChatter	tool_short_description	A platform for the biomedical application of Large Language Models
+3894	BioChatter	_tool_short_description	field_593de03c5cefd
+3894	BioChatter	tool_full_description	BioChatter is an open framework for collecting and providing functionalities around the application of Large Language Models (LLMs), including connectivity to knowledge graphs created in BioCypher. We cover aspects such as Retrieval Augmented Generation and prompt engineering in the biomedical context, and pay particular respect to evaluating model performance of proprietary and open-source LLMs.
+3894	BioChatter	_tool_full_description	field_593de0615cefe
+3894	BioChatter	tool_website	https://biocypher.github.io/biochatter
+3894	BioChatter	_tool_website	field_593de0bd5cf00
+3894	BioChatter	tool_code_repository	https://github.com/biocypher/biochatter
+3894	BioChatter	_tool_code_repository	field_593de09d5ceff
+3894	BioChatter	tool_publications	a:1:{i:0;s:4:"3805";}
+3894	BioChatter	_tool_publications	field_593de0d85cf01
+3894	BioChatter	tool_featured	0
+3894	BioChatter	_tool_featured	field_5ea985983cc07
+3894	BioChatter	tool_category	a:1:{i:0;s:8:"database";}
+3894	BioChatter	_tool_category	field_65abdecd44896
+3894	BioChatter	_wp_old_slug	liana-2
+3894	BioChatter	_thumbnail_id	3916
+3903	CORNETO	_edit_lock	1705777504:1
+3903	CORNETO	_edit_last	1
+3903	CORNETO	_thumbnail_id	3897
+3903	CORNETO	tool_short_description	Unified framework for network inference problems
+3903	CORNETO	_tool_short_description	field_593de03c5cefd
+3903	CORNETO	tool_full_description	CORNETO is a unified framework for integrating common network inference problems in biology through constraint programming. It supports tasks like the contextualisation of signalling networks or inference of metabolic networks from Genome-Scale Models with full support of Flux Balance Analysis. It provides a flexible Python API for model creation and optimisation with a wide variety of solvers.
+3903	CORNETO	_tool_full_description	field_593de0615cefe
+3903	CORNETO	tool_website	https://github.com/saezlab/corneto 
+3903	CORNETO	_tool_website	field_593de0bd5cf00
+3903	CORNETO	tool_code_repository	https://github.com/saezlab/corneto 
+3903	CORNETO	_tool_code_repository	field_593de09d5ceff
+3903	CORNETO	tool_publications	
+3903	CORNETO	_tool_publications	field_593de0d85cf01
+3903	CORNETO	tool_featured	0
+3903	CORNETO	_tool_featured	field_5ea985983cc07
+3903	CORNETO	tool_category	a:1:{i:0;s:4:"tool";}
+3903	CORNETO	_tool_category	field_65abdecd44896
+3904	LIANA+	_edit_lock	1705767291:1
+3904	LIANA+	_edit_last	1
+3904	LIANA+	_thumbnail_id	3899
+3904	LIANA+	tool_short_description	Framework to infer inter- and intra-cellular signalling from single-cell and spatial omics
+3904	LIANA+	_tool_short_description	field_593de03c5cefd
+3904	LIANA+	tool_full_description	LIANA+ is a scalable framework to decode coordinated inter- and intra-cellular signalling events from single-cell and spatially-resolved omics data. It enables comparative analyses across experimental conditions and supports the incorporation of diverse molecular mediators, such as those identified via multi-omics datasets. Thereby, LIANA+ provides an all-in-one solution to contemporary cell-cell communication inference.
+3904	LIANA+	_tool_full_description	field_593de0615cefe
+3904	LIANA+	tool_website	https://liana-py.readthedocs.io 
+3904	LIANA+	_tool_website	field_593de0bd5cf00
+3904	LIANA+	tool_code_repository	https://github.com/saezlab/liana-py
+3904	LIANA+	_tool_code_repository	field_593de09d5ceff
+3904	LIANA+	tool_publications	a:1:{i:0;s:4:"3833";}
+3904	LIANA+	_tool_publications	field_593de0d85cf01
+3904	LIANA+	tool_featured	1
+3904	LIANA+	_tool_featured	field_5ea985983cc07
+3904	LIANA+	tool_category	a:1:{i:0;s:4:"tool";}
+3904	LIANA+	_tool_category	field_65abdecd44896
+3905	DOT	_edit_lock	1705782869:1
+3905	DOT	_edit_last	1
+3905	DOT	_thumbnail_id	3912
+3905	DOT	tool_short_description	An optimization framework for transferring cell features from a reference data to spatial omics
+3905	DOT	_tool_short_description	field_593de03c5cefd
+3905	DOT	tool_full_description	DOT is an optimization framework for transferring cell features (such as cell types/states) from a reference data (such as single-cell RNA-seq) to spots/cells in spatial omics across diverse platforms, tissue types, and resolutions. DOT captures heterogeneity in cell populations, utilizes modality specific features such as spatial information, and offers absolute abundance at different locations.
+3905	DOT	_tool_full_description	field_593de0615cefe
+3905	DOT	tool_website	https://saezlab.github.io/DOT
+3905	DOT	_tool_website	field_593de0bd5cf00
+3905	DOT	tool_code_repository	https://github.com/saezlab/DOT
+3905	DOT	_tool_code_repository	field_593de09d5ceff
+3905	DOT	tool_publications	a:1:{i:0;s:4:"3761";}
+3905	DOT	_tool_publications	field_593de0d85cf01
+3905	DOT	tool_featured	1
+3905	DOT	_tool_featured	field_5ea985983cc07
+3905	DOT	tool_category	a:1:{i:0;s:4:"tool";}
+3905	DOT	_tool_category	field_65abdecd44896
+3907	CollecTRI	_edit_lock	1705796350:1
+3907	CollecTRI	_edit_last	1
+3907	CollecTRI	_thumbnail_id	3908
+3907	CollecTRI	tool_short_description	Collection of Transcriptional Regulatory Interactions
+3907	CollecTRI	_tool_short_description	field_593de03c5cefd
+3907	CollecTRI	tool_full_description	The CollecTRI-derived regulons contain signed transcription factor (TF) - target gene interactions compiled from 12 different resources. This collection provides an increased coverage of transcription factors and was benchmarked against other known GRNs, showing a superior performance in identifying perturbed TFs based on gene expression data using the knockTF data sets.
+3907	CollecTRI	_tool_full_description	field_593de0615cefe
+3907	CollecTRI	tool_website	https://github.com/saezlab/CollecTRI
+3907	CollecTRI	_tool_website	field_593de0bd5cf00
+3907	CollecTRI	tool_code_repository	https://github.com/saezlab/CollecTRI
+3907	CollecTRI	_tool_code_repository	field_593de09d5ceff
+3907	CollecTRI	tool_publications	a:1:{i:0;s:4:"3840";}
+3907	CollecTRI	_tool_publications	field_593de0d85cf01
+3907	CollecTRI	tool_featured	1
+3907	CollecTRI	_tool_featured	field_5ea985983cc07
+3907	CollecTRI	tool_category	a:1:{i:0;s:8:"database";}
+3907	CollecTRI	_tool_category	field_65abdecd44896
+3909	MetalinksDB	_edit_lock	1705783087:1
+3909	MetalinksDB	_edit_last	1
+3909	MetalinksDB	_thumbnail_id	3913
+3909	MetalinksDB	tool_short_description	Database of protein-metabolite and small molecule ligand-receptor interactions
+3909	MetalinksDB	_tool_short_description	field_593de03c5cefd
+3909	MetalinksDB	tool_full_description	Interactions between proteins and metabolites are key for cellular function, from the catalytic breakdown of nutrients to signaling. An important case is cell-cell communication, where cellular metabolites are secreted into the microenvironment and initiate a signaling cascade by binding to an intra- or extracellular receptor of another cell. While protein-protein mediated cell-cell communication is routinely inferred from transcriptomic data, for metabolite-protein interactions this is challenging due to the limitations of high-throughput single-cell and spatial metabolomics technologies, together with the absence of comprehensive prior knowledge resources that include metabolites. Here we report MetalinksDB, a comprehensive and flexible database of intercellular metabolite-protein interactions that is a magnitude larger than existing ones. MetalinksDB can be tailored to specific biological contexts such as diseases, pathways, or tissue/cellular locations by querying subsets of interactions using the web interface (<a href="https://metalinks.omnipathdb.org/" rel="nofollow">https://metalinks.omnipathdb.org/</a>) or the knowledge graph adapters.
+3909	MetalinksDB	_tool_full_description	field_593de0615cefe
+3909	MetalinksDB	tool_website	https://metalinks.omnipathdb.org/
+3909	MetalinksDB	_tool_website	field_593de0bd5cf00
+3909	MetalinksDB	tool_code_repository	https://github.com/saezlab/MetalinksDB
+3909	MetalinksDB	_tool_code_repository	field_593de09d5ceff
+3909	MetalinksDB	tool_publications	a:1:{i:0;s:4:"3884";}
+3909	MetalinksDB	_tool_publications	field_593de0d85cf01
+3909	MetalinksDB	tool_featured	0
+3909	MetalinksDB	_tool_featured	field_5ea985983cc07
+3909	MetalinksDB	tool_category	a:1:{i:0;s:8:"database";}
+3909	MetalinksDB	_tool_category	field_65abdecd44896
