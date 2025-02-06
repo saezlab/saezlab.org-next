@@ -114,3 +114,10 @@ html.dark {
 .dark .menu .line {
   background-color: #fff;
 }
+
+.tag {
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
