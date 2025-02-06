@@ -1,0 +1,18 @@
+[
+    { "id": "Transcriptomics" },
+    { "id": "Phosphoproteomics" },
+    { "id": "Footprints" },
+    { "id": "Signaling" },
+    { "id": "Pathways" },
+    { "id": "Database" },
+    { "id": "Prior knowledge" },
+    { "id": "Human" },
+    { "id": "Mouse" },
+    { "id": "Heart" },
+    { "id": "Liver" },
+    { "id": "Kidney" },
+    { "id": "Multiple sclerosis" },
+    { "id": "Chronic kidney disease" },
+    { "id": "Causality" }
+]
+
