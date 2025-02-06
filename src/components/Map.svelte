@@ -12,7 +12,8 @@
     const baseurl = import.meta.env.BASE_URL;
 </script>
 
-<figure use:setMap={{ latitude, longitude, zoom, markerMarkup, baseurl }} />
+<figure use:setMap={{ latitude, longitude, zoom, markerMarkup, baseurl}}>
+</figure>
 
 <style>
     figure {
