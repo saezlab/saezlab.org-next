@@ -1,0 +1,12 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PersonCard from "../components/PersonCard.astro";
+const allPeople = await Astro.glob("../content/people/*.md");
+---
+
+
+<BaseLayout title="People">
+    <ul>
+        {allPeople.map((person) => <PersonCard data={person} />)}
+    </ul>
+</BaseLayout>
