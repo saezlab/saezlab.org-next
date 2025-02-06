@@ -1,0 +1,25 @@
+---
+const { resource } = Astro.props;
+---
+
+{/*
+  * This is a mini box for a resource (tool), used when we list many resources in
+  * one page. To show more information about one or a handful of resources, we
+  * have the ResourceFull component available.
+  */}
+
+<article class="resource-mini">
+    <h2><a href={`/resources/${resource.slug}`}>{resource.data.name}</a></h2>
+    <p>{resource.data.short}</p>
+        {resource.data.tags && resource.data.tags.map(tag => (
+            <a class="tag" href={`/tags/${tag}`}>{tag}</a>
+        ))}
+</article>
+
+<style>
+.resource-mini {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+</style>
