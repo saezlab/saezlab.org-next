@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ResourceMini from '../components/ResourceMini.astro';
+
+const resources = await getCollection('resources');
+---
+
+{/*
+  * Here we list all resources (tools) and present each as a mini-card, as
+  * implemented in the ResourceMini component.
+  */}
+
+<BaseLayout title="Resources">
+  <div class="grid">
+      {resources.map(post => (
+          <ResourceMini resource={post} />
+      ))}
+  </div>
+</BaseLayout>
+
+<style>
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+</style>
