@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths({ }) {
+  const allPages = Astro.fetchContent('../../content/**/*.md');
+  const allTags = new Set();
+  allPages.map(page => {
+      page.tags && page.tags.map(tag => allTags.add(tag))
+  })
+  console.log(allTags)
+
+  return Array.from(allTags).map((tag) => {
+    const filteredPages = allPages.filter((page) => page.tags.includes(tag))
+    return {
+      params: { tag },
+      props: {
+        pages: filteredPages
+      }
+    };
+  });
+}
+
+const { pages } = Astro.props;
+const { tag } = Astro.request.params;
+
+let title = tag;
+---
+
+<BaseLayout title={title}>
+    <main>
+        <p>Pages tagged with {title}</p>
+        {pages.map(page =>
+            <p><a href={page.url}>{page.title}</a></p>
+        )}
+        <hr />
+        <p><a href ="/tags/">See all tags...</a></p>
+    </main>
+</BaseLayout>
